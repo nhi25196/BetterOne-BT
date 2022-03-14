@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=vietnamese');
+@font-face {
+    font-family: 'Arial Regular';
+    src: url(../fonts/Arial_regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans Extra Bold';
+    src: url(../fonts//OpenSans-ExtraBold.ttf);
+}
+
+.upt {
+    text-transform: uppercase;
+}
+
+.mycolor {
+    color: #a91605;
+}
+
+.dv {
+    border: 2px solid #a91605;
+    width: 16%;
+    margin: 14px 0px 36px;
+}

@@ -1,0 +1,83 @@
+/* Đây là phần header top */
+
+header .header-top {
+    background-image: url('../img/bg-header-top.jpg');
+    color: white;
+    background-repeat: round;
+}
+
+
+/* header .header-top .welcome {
+    padding: 7px 50px;
+} */
+
+header .header-icon {
+    margin-right: 20px;
+}
+
+header .header-icon a .fa {
+    color: white;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+header .header-icon a:hover .fa {
+    color: #a91605;
+}
+
+header .icon-flags {
+    padding: 6px 0;
+}
+
+
+/* Kết thúc header top */
+
+
+/* Đây là header bottom */
+
+header .header-bottom {
+    padding: 10px 0;
+}
+
+header .header-bottom .support {
+    display: flex;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+header .header-bottom .support .fa {
+    font-size: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+header .header-bottom .support .text {
+    font-family: 'Open Sans Extrabold';
+    font-size: 12px;
+    font-weight: bold;
+}
+
+header .header-bottom .phone {
+    padding: 7px 0;
+}
+
+header .header-bottom .change-contact {
+    display: flex;
+    padding: 5px 0;
+}
+
+header .header-bottom .change-contact .text-change {
+    font-family: 'Open Sans Extrabold';
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 60%;
+}
+
+header .header-bottom .change-contact .contact {
+    width: 40%;
+    padding: 5px 0;
+}
+
+
+/* Kết thúc header bottom */

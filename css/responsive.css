@@ -1,0 +1,28 @@
+    @media (max-width:767px) {
+        /* .menu_Bar .collapse {
+            color: black;
+        } */
+        nav.navbar {
+            background-image: none!important;
+            background: #a91606;
+        }
+        header .header-top {
+            background-image: none!important;
+            background-color: #333;
+            text-align: center!important;
+        }
+        header .header-bottom .support {
+            display: inherit!important;
+            text-align: center!important;
+        }
+        header .header-bottom .phone {
+            padding: 10px 100px!important;
+        }
+        .navbar-inverse .navbar-nav li a::after {
+            content: ""!important;
+        }
+        .menu_Bar .collapse {
+            padding-left: 15px!important;
+            padding-right: 15px!important;
+        }
+    }

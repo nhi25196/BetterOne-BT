@@ -1,0 +1,133 @@
+/* Banner  */
+
+.banner .carousel-inner .title-banner h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Open Sans Extra Bold';
+    line-height: 68px;
+}
+
+.banner .carousel-inner .btn-banner a {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Open Sans Extra Bold';
+    text-decoration: none;
+}
+
+.banner .carousel-inner .item .carousel-caption {
+    width: 33%;
+    text-align: left;
+    bottom: 98px;
+    left: -90px;
+}
+
+.banner .carousel-caption .btn-banner button {
+    background-color: #a91605;
+    border-color: #a91605;
+    padding: 13px 36px;
+    border-radius: 0px;
+}
+
+.banner .carousel-caption .divi {
+    border: 3px solid #a91605;
+    width: 23%;
+    display: inline-block;
+}
+
+
+/* img banner */
+
+.carousel-inner .item img {
+    width: -webkit-fill-available;
+}
+
+
+/* Kết thúc Banner  */
+
+
+/* MY SERVICES */
+
+.my-services .title h3 {
+    font-family: 'Open Sans Extra Bold';
+    font-size: 28px;
+}
+
+.my-services .title p {
+    color: #818d98;
+}
+
+.item-services h3 {
+    font-family: 'Open Sans Extra Bold';
+    font-size: 18px;
+    color: #2c3740;
+    line-height: 30px
+}
+
+.item-services p {
+    color: #868686;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.item-services .item-border:hover h3,
+.item-services .item-border:hover a {
+    color: #a91605;
+}
+
+.item-services a {
+    color: #2c3740;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.item-services a>i {
+    padding-left: 10px;
+}
+
+.item-services .item-border {
+    border: 1px solid #d4dee5b0;
+    box-shadow: 1px 1px 4px #f1f1f1;
+}
+
+.item-services .item-border .item-padding {
+    padding: 0px 24px 19px;
+}
+
+
+/* ABOUT US */
+
+.about-us .item-1 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.about-us .item-2 {
+    background-color: #333333;
+    color: #fff;
+    padding-right: 0px;
+    padding-bottom: 49px;
+}
+
+.about-us .item-content {
+    padding: 11px 52px 0px 27px;
+    text-align: justify;
+}
+
+.about-us .item-content a {
+    text-decoration: none;
+    color: #f52121;
+    font-weight: bold;
+}
+
+.about-us .item-content a>i {
+    padding-left: 7px;
+}
+
+
+/* NEWS */
+
+.item-services .item-no-border h3,
+.item-services .item-no-border a {
+    color: #a91605;
+}

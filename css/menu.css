@@ -1,0 +1,71 @@
+nav.navbar {
+    background-image: url('../img/bg-menu.jpg');
+    background-repeat: round;
+    border: none;
+    border-radius: 0;
+}
+
+
+/*  menu cha */
+
+.navbar-inverse .navbar-nav li a::after {
+    content: "|";
+    margin-left: 23px;
+}
+
+
+/*  menu con giới thiệu */
+
+.navbar-inverse .dropdown-menu li a::after {
+    content: "";
+}
+
+
+/*  menu con giới thiệu */
+
+.navbar-inverse .dropdown-menu {
+    background-color: #a91606;
+    color: white;
+}
+
+
+/*  menu con giới thiệu */
+
+.navbar-inverse .dropdown-menu li a {
+    color: white;
+}
+
+
+/* chỗ menu con giới thiệu */
+
+.navbar-inverse .dropdown-menu li a:hover {
+    background-color: gray;
+}
+
+
+/*  menu con giới thiệu */
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+
+/*  menu nút đưa về di động */
+
+.navbar-inverse .navbar-toggle {
+    border-color: #a91606;
+    background-color: #a91606;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #a91606;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #a91606;
+    margin-left: 10px;
+}
